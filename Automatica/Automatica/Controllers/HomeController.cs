@@ -10,6 +10,10 @@ namespace Automatica.Controllers
     {
         public ActionResult Index()
         {
+            /* A comment added to demonstrate Git changes.
+             * It works great.
+             * Please delete this in your next commit.
+             */
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
             return View();
